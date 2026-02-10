@@ -68,8 +68,6 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <Sparkles className="w-5 h-5 text-yellow-400" />
-            <span className="text-white font-medium">Building Stronger Communities</span>
           </motion.div>
 
           <motion.h1
