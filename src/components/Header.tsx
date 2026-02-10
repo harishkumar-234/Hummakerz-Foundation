@@ -63,7 +63,7 @@ const Header: React.FC = () => {
               className="w-12 h-12 rounded-full object-cover"
             />
             <div>
-              <h1 className={`text-2xl font-bold ${isScrolled ? 'gradient-text' : 'text-gray/100'}`}>
+              <h1 className={`text-2xl font-bold ${isScrolled ? 'text-primary-600' : 'text-white/100'}`}>
                 Hum Makerz
               </h1>
               <p className={`text-sm ${isScrolled ? 'text-black-600' : 'text-gray/100'}`}>
