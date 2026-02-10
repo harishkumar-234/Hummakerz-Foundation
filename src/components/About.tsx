@@ -76,7 +76,7 @@ const About: React.FC = () => {
             transition={{ delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <span className="gradient-text">HUM MAKERZ FOUNDATION</span>
+            <span className="gradient-text text-primary-600">HUM MAKERZ FOUNDATION</span>
           </motion.h2>
 
           <motion.p
