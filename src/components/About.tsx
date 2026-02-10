@@ -78,18 +78,6 @@ const About: React.FC = () => {
           >
             <span className="gradient-text text-primary-600">HUM MAKERZ FOUNDATION</span>
           </motion.h2>
-
-          <motion.p
-            className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
-            viewport={{ once: true }}
-          >
-            A purpose-driven Section 8 foundation dedicated to building stronger, happier,
-            and more connected communities. We believe real impact starts when people feel
-            supported, inspired, and included.
-          </motion.p>
         </motion.div>
 
         {/* Features Grid */}
