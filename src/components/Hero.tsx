@@ -82,16 +82,6 @@ const Hero: React.FC = () => {
             </span>
           </motion.h1>
 
-          <motion.p
-            className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
-          >
-            A purpose-driven Section 8 foundation dedicated to building stronger, happier, 
-            and more connected communities where women thrive and positive change flourishes.
-          </motion.p>
-
           <motion.div
             className="flex flex-col sm:flex-row gap-6 justify-center items-center"
             initial={{ opacity: 0, y: 30 }}
