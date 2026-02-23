@@ -190,7 +190,7 @@ const Footer: React.FC = () => {
 
         {/* Donation Reminder */}
         <motion.div
-          className="mt-16 bg-gradient-to-r from-primary-600 to-secondary-600 rounded-2xl p-8 text-center"
+          className="mt-16 bg-gradient-to-r from-gray-500 to-gray-600 rounded-2xl p-8 text-center"
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
@@ -203,7 +203,7 @@ const Footer: React.FC = () => {
             Community connection, and meaningful social change.
           </p>
           <motion.button
-            className="bg-white text-primary-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all duration-300"
+            className="bg-white text-gray-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >

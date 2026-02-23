@@ -76,7 +76,7 @@ const About: React.FC = () => {
             transition={{ delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <span className="gradient-text text-primary-600">HUM MAKERZ FOUNDATION</span>
+            <span className="gray-text text-black">HUM MAKERZ CLUB</span>
           </motion.h2>
         </motion.div>
 
@@ -92,7 +92,7 @@ const About: React.FC = () => {
               viewport={{ once: true }}
               whileHover={{ y: -10 }}
             >
-              <div className="glass-card h-full hover:shadow-2xl transition-all duration-300 overflow-hidden">
+              <div className="bg-gray-300 h-full hover:shadow-2xl transition-all duration-300 overflow-hidden rounded-2xl">
                 {/* Image */}
                 <div className="relative h-48 overflow-hidden">
                   <img
@@ -125,7 +125,7 @@ const About: React.FC = () => {
 
         {/* Community Platform Section */}
         <motion.div
-          className="bg-gradient-to-r from-primary-600 to-secondary-600 rounded-3xl p-12 text-white mb-20"
+          className="bg-gray-800 rounded-3xl p-12 text-white mb-20"
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
@@ -145,14 +145,6 @@ const About: React.FC = () => {
                 HUM MAKERZ Foundation serves as a platform where compassion turns into impact
                 and community members come together to create meaningful change.
               </p>
-              <motion.button
-                className="flex items-center space-x-2 text-primary-600 font-semibold hover:text-primary-700 transition-colors duration-300"
-                whileHover={{ x: 5 }}
-                onClick={() => handleLearnMore('about')}
-              >
-                <span>Learn More</span>
-                <ArrowRight className="w-4 h-4" />
-              </motion.button>
               <motion.div
                 className="inline-flex items-center space-x-2 bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-8 py-4 rounded-full font-semibold text-lg"
                 whileHover={{ scale: 1.05 }}

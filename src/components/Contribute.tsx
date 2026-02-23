@@ -107,7 +107,7 @@ const Contribute: React.FC = () => {
             transition={{ delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <span className="gradient-text">Your Contribution Makes</span>
+            <span className="text-gray-800">Your Contribution Makes</span>
             <br />
             <span className="text-gray-800">a Real Difference</span>
           </motion.h2>
@@ -164,7 +164,7 @@ const Contribute: React.FC = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <div className="bg-white rounded-2xl shadow-xl p-8">
+            <div className="bg-gray-300 rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold mb-6 gradient-text">
                 How Your Support Helps
               </h3>

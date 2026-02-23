@@ -66,7 +66,7 @@ const VisionMission: React.FC = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <div className="bg-gradient-to-br from-primary-500 to-primary-600 rounded-3xl p-8 text-white relative overflow-hidden">
+            <div className="bg-gradient-to-br from-gray-500 to-gray-600 rounded-3xl p-8 text-white relative overflow-hidden">
               {/* Background Pattern */}
               <div className="absolute inset-0 opacity-10">
                 <div className="absolute top-0 right-0 w-64 h-64 bg-white rounded-full -mr-32 -mt-32" />
@@ -80,7 +80,7 @@ const VisionMission: React.FC = () => {
                   alt="Our Vision"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary-600/50 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-gray-600/50 to-transparent" />
               </div>
 
               <div className="relative z-10">
@@ -127,7 +127,7 @@ const VisionMission: React.FC = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <div className="bg-gradient-to-br from-secondary-500 to-secondary-600 rounded-3xl p-8 text-white relative overflow-hidden">
+            <div className="bg-gradient-to-br from-gray-500 to-gray-600 rounded-3xl p-8 text-white relative overflow-hidden">
               {/* Background Pattern */}
               <div className="absolute inset-0 opacity-10">
                 <div className="absolute top-0 left-0 w-48 h-48 bg-white rounded-full -ml-24 -mt-24" />
@@ -141,7 +141,7 @@ const VisionMission: React.FC = () => {
                   alt="Our Mission"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-secondary-600/50 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-gray-600/50 to-transparent" />
               </div>
 
               <div className="relative z-10">
@@ -189,7 +189,7 @@ const VisionMission: React.FC = () => {
           viewport={{ once: true }}
         >
           <div className="bg-white rounded-3xl shadow-2xl p-12 border border-gray-100">
-            <h3 className="text-3xl md:text-4xl font-bold mb-6 gradient-text">
+            <h3 className="text-3xl md:text-4xl font-bold mb-6 black-text">
               Be Part of Our Journey
             </h3>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">

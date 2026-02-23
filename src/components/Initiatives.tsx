@@ -128,7 +128,7 @@ const Initiatives: React.FC = () => {
             transition={{ delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <span className="gradient-text">A Joyful Space Where</span>
+            <span className="text-gray-800">A Joyful Space Where</span>
             <br />
             <span className="text-gray-800">Women Connect, Unwind, and Grow</span>
           </motion.h2>
@@ -158,7 +158,7 @@ const Initiatives: React.FC = () => {
               whileHover={{ y: -10 }}
               onClick={() => setSelectedActivity(selectedActivity === index ? null : index)}
             >
-              <div className="h-full bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 cursor-pointer">
+              <div className="h-full bg-gray-300 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 cursor-pointer">
                 {/* Activity Header */}
                 <div className={`h-2 bg-gradient-to-r ${activity.color}`} />
                 
@@ -258,7 +258,7 @@ const Initiatives: React.FC = () => {
 
         {/* Join Section */}
         <motion.div
-          className="bg-gradient-to-r from-primary-600 to-secondary-600 rounded-3xl p-12 text-white text-center"
+          className="bg-gradient-to-r from-gray-900 to-gray-700 rounded-3xl p-12 text-white text-center"
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}

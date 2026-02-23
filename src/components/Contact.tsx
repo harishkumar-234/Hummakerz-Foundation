@@ -75,16 +75,6 @@ const Contact: React.FC = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <motion.div
-            className="inline-flex items-center space-x-2 bg-primary-100 rounded-full px-6 py-3 mb-6"
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.2 }}
-            viewport={{ once: true }}
-          >
-            <MessageSquare className="w-5 h-5 text-primary-600" />
-            <span className="text-primary-700 font-semibold">Get in Touch</span>
-          </motion.div>
 
           <motion.h2
             className="text-4xl md:text-5xl font-bold mb-6"
@@ -93,7 +83,7 @@ const Contact: React.FC = () => {
             transition={{ delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <span className="gradient-text">Contact Us</span>
+            <span className="text-gray-800">Contact Us</span>
             <br />
             <span className="text-gray-800">We'd Love to Hear From You</span>
           </motion.h2>
@@ -118,8 +108,8 @@ const Contact: React.FC = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <div className="bg-white rounded-2xl shadow-xl p-8">
-              <h3 className="text-2xl font-bold mb-6 gradient-text">Send us a Message</h3>
+            <div className="bg-gray-300 rounded-2xl shadow-xl p-8">
+              <h3 className="text-2xl font-bold mb-6 text-gray-800">Send us a Message</h3>
               
               {!isSubmitted ? (
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -265,7 +255,7 @@ const Contact: React.FC = () => {
 
             {/* Office Hours */}
             <motion.div
-              className="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl p-6 text-white"
+              className="bg-gradient-to-br from-gray-600 to-gray-900 rounded-2xl p-6 text-white"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}

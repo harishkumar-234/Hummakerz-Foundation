@@ -100,7 +100,7 @@ const FocusAreas: React.FC = () => {
             transition={{ delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <span className="gradient-text">Creating Impact Through</span>
+            <span className="text-gray-800">Creating Impact Through</span>
             <br />
             <span className="text-gray-800">Focused Initiatives</span>
           </motion.h2>
@@ -129,7 +129,7 @@ const FocusAreas: React.FC = () => {
               viewport={{ once: true }}
               whileHover={{ y: -10 }}
             >
-              <div className="h-full bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100">
+              <div className="h-full bg-gray-300 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100">
                 {/* Card Header */}
                 <motion.div
                   className={`h-2 bg-gradient-to-r ${area.color}`}
@@ -208,11 +208,11 @@ const FocusAreas: React.FC = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <div className="bg-gradient-to-r from-primary-100 to-secondary-100 rounded-3xl p-12">
-            <h3 className="text-3xl md:text-4xl font-bold mb-6 gradient-text">
+          <div className="bg-gray-900 rounded-3xl p-12 text-white">
+            <h3 className="text-3xl md:text-4xl font-bold mb-6">
               Join Us in Making a Difference
             </h3>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
               Together, we can create stronger, more inclusive communities where everyone 
               has the opportunity to thrive and make a positive impact.
             </p>

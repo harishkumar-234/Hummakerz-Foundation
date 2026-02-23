@@ -36,14 +36,14 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
 
   return (
     <div className={`relative w-full h-full overflow-hidden ${className}`}>
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode="sync">
         <motion.div
           key={currentIndex}
           className="absolute inset-0"
-          initial={{ opacity: 0, scale: 1.1 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.9 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
+          initial={{ x: "100%", opacity: 1 }}
+          animate={{ x: -2, opacity: 1 }}
+          exit={{ x: "-100%", opacity: 1 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
         >
           <img
             src={images[currentIndex]}
